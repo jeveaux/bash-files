@@ -84,7 +84,7 @@ __ruby_ps1 () {
 # 0 - Normal
 # 1 - Bold
 # 2 - 
-function prompt {
+function prompt() {
 	local BLACK="\[\033[0;30m\]"
 	local RED="\[\033[0;31m\]"
 	local GREEN="\[\033[0;32m\]"
